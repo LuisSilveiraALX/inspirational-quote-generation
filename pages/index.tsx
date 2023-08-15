@@ -24,6 +24,25 @@ export default function Home() {
       {/* Background */}
       <GradientBackgroundCon>
 
+      {/* Quote Generator Modal Pop-up*/}
+      {/* <QuoteGeneratorModal
+      /> */}
+      
+      {/* Quote Generator */}
+      <QuoteGeneratorCon>
+        <QuoteGenerratorInnerCon>
+          <QuoteGeneratorTtitle>
+              Daily Inspiration Generator
+          </QuoteGeneratorTtitle>
+          <QuoteGeneratorSubTitle>
+            
+          </QuoteGeneratorSubTitle>
+        </QuoteGenerratorInnerCon>
+      </QuoteGeneratorCon>
+
+      
+
+      {/* Background Images */}
         <BackgroundImage1
           src={Clouds1}
           height="300"
@@ -36,6 +55,7 @@ export default function Home() {
           alt="cloudybackground1"
         />
 
+      {/* Footer */}
         <FooterCon>
           <>
             Quotes Generated: {numberOfQutes}

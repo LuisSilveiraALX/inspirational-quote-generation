@@ -22,7 +22,7 @@ export const GradientBackgroundCon = styled.div`
 `;
 
 export const BackgroundImage1 = styled(Image)`
-  postision: relative;
+  position: relative;
   z-index: 1;
   margin-left: -10px;
   margin-top: -10px;

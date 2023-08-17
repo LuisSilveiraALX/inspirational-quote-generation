@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 
 // Components
-import { GradientBackgroundCon, BackgroundImage1, BackgroundImage2, FooterCon, RedSpan, FooterLink } from '@/components/QuoteGenerator/QuoteGeneratorElements'
+import { GradientBackgroundCon, BackgroundImage1, BackgroundImage2, FooterCon, RedSpan, FooterLink, QuoteGeneratorCon, QuoteGenerratorInnerCon, QuoteGeneratorTitle, QuoteGeneratorSubTitle, GenerateQuoteButton, GenerateQuoteButtonText } from '@/components/QuoteGenerator/QuoteGeneratorElements'
 
 // Assets
 import Clouds1 from '@/assets/cloud-and-thunder.png'
@@ -31,12 +31,19 @@ export default function Home() {
       {/* Quote Generator */}
       <QuoteGeneratorCon>
         <QuoteGenerratorInnerCon>
-          <QuoteGeneratorTtitle>
+          <QuoteGeneratorTitle>
               Daily Inspiration Generator
-          </QuoteGeneratorTtitle>
+          </QuoteGeneratorTitle>
           <QuoteGeneratorSubTitle>
-            
+          Looking for a splash of inspiration? Generate a quote card with a random inspirational quote provided by <FooterLink href="https://zenquotes.io/" target="_blank" rel="noopener noreferrer">ZenQuotes API</FooterLink>
           </QuoteGeneratorSubTitle>
+
+        <GenerateQuoteButton>
+          <GenerateQuoteButtonText>
+            Make a Quote
+          </GenerateQuoteButtonText>
+        </GenerateQuoteButton>
+
         </QuoteGenerratorInnerCon>
       </QuoteGeneratorCon>
 
